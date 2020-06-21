@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Priyanshi Portfolio</title>
-  <link rel = "icon" href ="/img/logo.png" type = "image/x-icon"> 
+  <link rel = "icon" href ="img/logo.png" type = "image/x-icon"> 
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -21,7 +21,7 @@
   <!--/ Nav Star /-->
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav" style="background-color: #3b6978">
     <div class="container">
-      <img src="/img/Priyanshi_logo.png">
+      <img src="img/Priyanshi_logo.png">
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
         aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
@@ -29,10 +29,9 @@
         <span></span>
       </button>
       <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-         <div class="overlay-intro"></div>
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About Me</a>
+         <li class="nav-item">
+            <a class="nav-link"><span style="cursor:pointer" onclick="openNav1()">About Me</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="">Project</a>
@@ -62,7 +61,7 @@
   <div id="home" class="intro">
     <div class="intro-content display-table">
       <div class="table-cell">
-        <div class="container bg-orange-transparent">
+        <div class="container bg-pink-transparent">
           <h1 class="intro-title mb-4" style="font-size: 8vh">Priyanshi Chauhan</h1>
           <p class="intro-subtitle mb-4"  style="font-size: 4vh">IT Student</p>
           <p class="intro-subtitle mb-4" style="font-size: 4vh">Front-End Developer, Web Designing and An Enthusiast to learn Web Development </p>
@@ -80,6 +79,95 @@
   </div>
   <!--/ Intro Skew End /-->
 
+  <div id="myNav1" class="overlay1">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()" style="margin-top: 17vh;margin-right: 0.5vh;">&times;</a>
+    <div class="overlay1-content">
+      <section id="about" class="about-mf sect-pt4">
+        <div class="container">
+          <div class="title-box text-center">
+                <h3 class="title-a">
+                  About Myself
+                </h3>
+                <div class="line-mf"> </div>
+          </div>
+              <div class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="row">
+                      <div class="col-md-11">
+                        <div class="about-img">
+                          <img src="img/priyanshi.jpeg" class="img-fluid rounded b-shadow-a" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="about-me pt-4 pt-md-0">
+                      <p class="lead">
+                        Hello everyone!! I am Priyanshi Chauhan, pursuing Information Technology from Vellore Institute of Technology, Vellore, Tamil Nadu. Currently I am a 4th year student.
+                      </p>
+                      <p class="lead">
+                        I love web designing and Front-end developing. According to me a website is a best way for explain your work and knowledge to someone. Talking about my hands on coding, I have learnt languages like java, C/C++, Python, SQL etc. I am an enthusiat to learn Back-end as well and I am working on it.   
+                      </p>
+                      <p class="lead">
+                        I am an energetic and ambitious person who can work as a Leader as well as a Team player. Both are inter-related. Being a team player one can easily learn the requirements of a team. I am a fun loving person and always have a good perspective towards the world.   
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </section>
+      <section class="about-mf sect-pt4 route">
+        <div class="container">
+          <div class="title-box text-center">
+                <h3 class="title-a">
+                  My Academics
+                </h3>
+                <div class="line-mf"> </div>
+          </div>
+              <div class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="about-me pt-4 pt-md-0">
+                      <div class="title-box-2">
+                        <h5 class="title-left">
+                          <b>10th CBSE Board (Completed in 2015)</b>
+                        </h5>
+                      </div>
+                      <p class="lead">
+                        <b>Kendriya Vidyalaya No.1 afs, Bhuj, Kutch, Gujarat
+                        CGPA: 10</b>
+                      </p>
+    
+                       <div class="title-box-2">
+                        <h5 class="title-left">
+                          <b>12th CBSE Board (Completed in 2017)</b>
+                        </h5>
+                      </div>
+                      <p class="lead">
+                        <b>Vedant International School, Ahmedabad, Gujarat
+                        Percentage: 74.2</b>
+                      </p>
+    
+                       <div class="title-box-2">
+                        <h5 class="title-left">
+                          <b>Undergraduate (Completing in 2021) </b>
+                        </h5>
+                      </div>
+                      <p class="lead">
+                      <b> Vellore Institute of Technology, Vellore, Tamil Nadu
+                       CGPA (Till 6th Sem): 7.78</b>
+                      </p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </section>
+    </div>
+  </div>
    <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
