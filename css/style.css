@@ -1,5 +1,5 @@
 body {
-background-color: black; 
+background-color:#A6DCEF; 
   color: #4e4e4e;
 }
 
@@ -148,15 +148,25 @@ h6 {
   font-weight: 600;
 }
 
-.navbar-b.navbar-trans .nav-link:before,
-.navbar-b.navbar-reduce .nav-link:before {
+
+.navbar-b.navbar-trans .nav-link:before {
   content: '';
   position: absolute;
-  margin-left: 0px;
+  margin-left: 8px;
   width: 0%;
   bottom: 0;
   left: 0;
-  height: 2px;
+  height: 3px;
+  transition: all 500ms ease;
+}
+.navbar-b.navbar-reduce .nav-link:before {
+  content: '';
+  position: absolute;
+  margin-left:0;
+  width: 0%;
+  bottom: 0;
+  left: 0;
+  height: 3px;
   transition: all 500ms ease;
 }
 
@@ -173,15 +183,15 @@ h6 {
 .navbar-b.navbar-reduce .active > .nav-link:before,
 .navbar-b.navbar-reduce .nav-link.show:before,
 .navbar-b.navbar-reduce .nav-link.active:before {
-  width: 40px;
+  width: 35px;
 }
 
 .navbar-b.navbar-trans .nav-link:before {
-  background-color: orangered;
+  background-color: #e36387;
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
-  color: orangered;
+  color: #e36387;
 }
 
 
@@ -218,10 +228,6 @@ h6 {
 }
 
 
-.navbar-b .dropdown-menu .dropdown-item.active {
-  background-color: #0078ff;
-}
-
 .navbar-toggler {
   position: relative;
 }
@@ -233,7 +239,7 @@ h6 {
 
 .navbar-toggler span {
   display: block;
-  background-color: orangered;
+  background-color:#e36387;
   height: 3px;
   width: 25px;
   margin-top: 4px;
@@ -291,12 +297,9 @@ list-style: none;
 margin: 10px 10px;
 display: inline-block;
 font-size: 20px;
-padding: 10px 10px;
-color: orangered;
-border: 2px solid white;
-border-radius: 50%;
 transition: .5s;
 text-align: center;
+margin-top: 7rem;
 }
 
 /*======================================
@@ -366,12 +369,12 @@ text-align: center;
 
 
 .bg-orange-transparent {
-  background-color: orangered;
+  background-color: #e36387;
   display: grid;
   grid-template-rows: 100px;
   border-radius: 10px;
   padding: 50px;
-  margin-top: 7rem;
+  margin-top: 10rem;
   opacity: 0.9;
   border: 5px solid white;
 }
