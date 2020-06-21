@@ -51,3 +51,10 @@ function openNav2() {
   function closeNav3() {
 	document.getElementById("myNav3").style.height = "0%";
   }
+
+  function openNav4() {
+	document.getElementById("myNav4").style.top= "0";
+  }
+  function closeNav4() {
+	document.getElementById("myNav4").style.top= "100%";
+  }
