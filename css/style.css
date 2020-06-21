@@ -554,7 +554,7 @@ margin-top: 7rem;
 
 .overlay2-content {
   position: relative;
-  top: 25%;
+  top: 22%;
   width: 100%;
   text-align: center;
   margin-top: 30px;
@@ -575,11 +575,10 @@ margin-top: 7rem;
 
 .overlay2 .closebtn2 {
   position: absolute;
-  top: 20px;
-  right: 45px;
+  top: 0.2px;
+  right: 10px;
   font-size: 60px;
 }
-
 @media screen and (max-height: 450px) {
   .overlay2 a {font-size: 20px}
   .overlay2 .closebtn2 {
@@ -605,7 +604,7 @@ margin-top: 7rem;
 
 .overlay3-content {
   position: relative;
-  top: 25%;
+  top: 22%;
   width: 100%;
   text-align: center;
   margin-top: 30px;
@@ -626,8 +625,8 @@ margin-top: 7rem;
 
 .overlay3 .closebtn3 {
   position: absolute;
-  top: 20px;
-  right: 45px;
+  top: 0.2px;
+  right: 10px;
   font-size: 60px;
 }
 
@@ -656,7 +655,7 @@ margin-top: 7rem;
 
 .overlay4-content {
   position: relative;
-  top: 25%;
+  top: 22%;
   width: 100%;
   text-align: center;
   margin-top: 30px;
@@ -677,8 +676,8 @@ margin-top: 7rem;
 
 .overlay4 .closebtn4 {
   position: absolute;
-  top: 20px;
-  right: 45px;
+  top: 0.2px;
+  right: 10px;
   font-size: 60px;
 }
 
