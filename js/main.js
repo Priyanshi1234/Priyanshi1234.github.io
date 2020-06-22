@@ -22,11 +22,12 @@
 			$('.navbar-expand-md').removeClass('navbar-reduce');
 		}
 		if ($(window).scrollTop() > top) {
-			$('.scrolltop-mf').fadeIn(1000, "easeInOutExpo");
+			$('.scrolltop-mf').fadeIn(500, "easeInOutExpo");
 		} else {
-			$('.scrolltop-mf').fadeOut(1000, "easeInOutExpo");
+			$('.scrolltop-mf').fadeOut(500, "easeInOutExpo");
 		}
 	});
+	
 
 })(jQuery);
 
@@ -102,3 +103,6 @@ function openNav5() {
       });
     }
   });
+
+  
+
