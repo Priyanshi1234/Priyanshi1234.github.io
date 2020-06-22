@@ -88,6 +88,14 @@ function openNav5() {
 	document.getElementById("myNav5").style.width = "0%";
   }
 
+  function closeNav() {
+	document.getElementById("myNav1").style.width = "0%";
+	document.getElementById("myNav2").style.left = "100%";
+	document.getElementById("myNav3").style.height = "0%";
+	document.getElementById("myNav4").style.top= "100%";
+	document.getElementById("myNav5").style.width = "0%";
+  }
+
    // Preloader
   $(window).on('load', function () {
     if ($('#preloader').length) {
