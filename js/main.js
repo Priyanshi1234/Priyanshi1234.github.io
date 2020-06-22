@@ -86,3 +86,19 @@ function openNav5() {
   function closeNav5() {
 	document.getElementById("myNav5").style.width = "0%";
   }
+
+   // Preloader
+  $(window).on('load', function () {
+    if ($('#preloader').length) {
+      $('#preloader').delay(1000).fadeOut('slow', function () {
+        $(this).remove();
+      });
+    }
+  }); // Preloader
+  $(window).on('load', function () {
+    if ($('#preloader').length) {
+      $('#preloader').delay(1000).fadeOut('slow', function () {
+        $(this).remove();
+      });
+    }
+  });
