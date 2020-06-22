@@ -773,7 +773,7 @@ text-align: center;
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background-image:linear-gradient(120deg,#3b6978,#A6DCEF, #e36387); 
+  background-image:linear-gradient(120deg,#e36387,#3b6978 ); 
   border-radius: 10px;
 }
 
