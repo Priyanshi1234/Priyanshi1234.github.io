@@ -4,6 +4,8 @@ html {
 body {
 background-color:#A6DCEF; 
   color: #4e4e4e;
+  overflow-y:hidden;
+  height:100%;
 }
 
 h1,
@@ -747,8 +749,8 @@ text-align: center;
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 5px solid #A6DCEF;
-  border-top: 20px solid #e36387;
+  border: 5px solid  #A6DCEF;
+  border-top: 20px solid  #e36387;
   border-radius: 50%;
   width: 100px;
   height: 100px;

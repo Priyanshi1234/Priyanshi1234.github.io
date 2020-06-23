@@ -157,3 +157,8 @@ document.addEventListener("DOMContentLoaded", function() { // On DOM Load initia
   if(textArray.length) setTimeout(type, newTextDelay + 250);
 });
 
+function fadeout(){
+	$("#preloader").fadeOut(1000);
+	$('body,html').css('overflow','visible');
+	move();
+}
