@@ -189,9 +189,12 @@ h6 {
 
 .navbar-b.navbar-trans .nav-link:hover:before,
 .navbar-b.navbar-reduce .nav-link:hover:before {
-  width: 40px;
+  width: 50px;
 }
-
+.navbar-b.navbar-trans .nav-link:hover:hover,
+.navbar-b.navbar-reduce .nav-link:hover:hover {
+  color: #e36387;
+}
 .navbar-b.navbar-trans .show > .nav-link:before,
 .navbar-b.navbar-trans .active > .nav-link:before,
 .navbar-b.navbar-trans .nav-link.show:before,
@@ -221,9 +224,9 @@ h6 {
 }
 
 
-.navbar-b .navbar-brand {
-  color: #fff;
-  font-size: 1.6rem;
+.navbar-b .navbar-brand{
+  color: #e36387;
+  font-size: 0.6rem;
   font-weight: 600;
 }
 
@@ -783,3 +786,41 @@ text-align: center;
   background: #3b6978; 
 }
 
+
+
+.container1 {
+  height: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container1 p {
+  font-size: 3rem;
+  padding: 0.2rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+.container1 p span.typed-text {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: #fff;
+}
+.container1 p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 5px;
+  animation: blink 1s infinite;
+}
+.container1 p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
