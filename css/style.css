@@ -57,7 +57,23 @@ h6 {
   display: table;
 }
 
+.btn{
+  font-size: 1rem;
+  padding: 0.2rem 0.5rem;
+  background: #e36387;
+  margin: 1.5rem;
+  border: 2px solid #3b6978;
+  color: black;
+  margin-top: 10rem;
+    margin-bottom:2rem ;
 
+}
+.btn:hover{
+  border: 2px solid #e36387;
+  background-color: #3b6978;
+  color: black;
+
+}
 
 
 /*--/ Sections /--*/
@@ -314,7 +330,7 @@ text-align: center;
 .fab:hover {
   border: 3px solid #e36387;
   border-radius: 50%;
-  padding: 5px;
+  padding: 7px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -345,12 +361,13 @@ text-align: center;
 }
 
 .intro .intro-title {
-  color: #fff;
+  color: black;
   font-weight: 600;
 }
 
 .intro .intro-subtitle {
   font-weight: 300;
+  color: black;
 }
 
 .intro .text-slider-items {
@@ -387,10 +404,10 @@ text-align: center;
 .bg-pink-transparent {
   background-color: #e36387;
   display: grid;
-  grid-template-rows: 100px;
+  grid-template-rows: 90px;
   border-radius: 10px;
-  padding: 50px;
-  margin-top: 10rem;
+  padding: 20px;
+  margin-top: 1rem;
   opacity: 0.9;
   border: 5px solid white;
 }
@@ -805,7 +822,7 @@ text-align: center;
 .container1 p span.typed-text {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
-  color: #fff;
+  color: black;
 }
 .container1 p span.cursor {
   display: inline-block;

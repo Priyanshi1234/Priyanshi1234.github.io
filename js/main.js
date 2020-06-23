@@ -118,7 +118,7 @@ function openNav5() {
   const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["<Front-End Developer/>", "<Web Designing/>", "$[An Enthusiast to learn Web Development]"];
+const textArray = ["<Front-End Developer/>", "<Web Designer/>", "$[Web Development Enthusiast]"];
 const typingDelay = 100;
 const erasingDelay = 120;
 const newTextDelay = 100; // Delay between current and next text
