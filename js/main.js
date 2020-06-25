@@ -162,3 +162,8 @@ function fadeout(){
 	$('body,html').css('overflow','visible');
 	move();
 }
+
+
+$(function () {
+  $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+  });
