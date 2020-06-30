@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 
-[Link](pchauhan.in) 
+[Link](http://pchauhan.in/) 
 This is the link for my portfolio.
