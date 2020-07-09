@@ -82,6 +82,48 @@ h6 {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  main{
+    overflow-x: none;
+  }
+  [class*="col-"] {
+    width: 100%;
+  }
+  .bg-pink-transparent>h1, p{
+    font-size: 3rem !important;
+  }
+  .intro .text-slider-items{
+    font-size: 1rem !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--/ Sections /--*/
 
 .sect-4 {
@@ -369,6 +411,7 @@ text-align: center;
 .intro .intro-title {
   color: black;
   font-weight: 600;
+  font-size: 8vh;
 }
 
 .intro .intro-subtitle {
@@ -575,7 +618,7 @@ text-align: center;
   font-size: 60px;
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 600px) {
   .overlay1 a {font-size: 20px}
   .overlay1 .closebtn1 {
   font-size: 40px;
@@ -583,8 +626,6 @@ text-align: center;
   right: 35px;
   }
 }
-
-
 
 
 .overlay2 {
@@ -627,7 +668,7 @@ text-align: center;
   right: 10px;
   font-size: 60px;
 }
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 600px) {
   .overlay2 a {font-size: 20px}
   .overlay2 .closebtn2 {
   font-size: 40px;
@@ -678,7 +719,7 @@ text-align: center;
   font-size: 60px;
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 600px) {
   .overlay3 a {font-size: 20px}
   .overlay3 .closebtn3 {
   font-size: 40px;
@@ -729,7 +770,7 @@ text-align: center;
   font-size: 60px;
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 600px) {
   .overlay4 a {font-size: 20px}
   .overlay4 .closebtn4 {
   font-size: 40px;
@@ -1197,5 +1238,11 @@ text-align: center;
   opacity    : 1;
   transition : all .3s;
 }
+
+
+
+
+
+
 
 

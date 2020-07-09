@@ -160,7 +160,7 @@ document.addEventListener("DOMContentLoaded", function() { // On DOM Load initia
 function fadeout(){
 	$("#preloader").fadeOut(1000);
 	$('body,html').css('overflow','visible');
-	move();
+
 }
 
 
