@@ -85,45 +85,6 @@ h6 {
 
 
 
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  main{
-    overflow-x: none;
-  }
-  [class*="col-"] {
-    width: 100%;
-  }
-  .bg-pink-transparent>h1, p{
-    font-size: 3rem !important;
-  }
-  .intro .text-slider-items{
-    font-size: 1rem !important;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*--/ Sections /--*/
 
 .sect-4 {
@@ -375,12 +336,6 @@ transition: 0.5s;
 text-align: center;
 }
 
-.fab:hover {
-  border: 3px solid #e36387;
-  border-radius: 50%;
-  padding: 7px;
-  transition: all 0.3s ease-in-out;
-}
 
 /*======================================
 //--//-->   INTRO
@@ -523,6 +478,16 @@ text-align: center;
 /*======================================
 //--//-->   extra curr
 ======================================*/
+#xtra{
+  display: grid;
+  -ms-flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  align-content: center;
+  justify-content: space-around;
+  place-items: center;
+}
+
 
 .xtra-box {
   margin-bottom: 3rem;
@@ -1020,7 +985,7 @@ text-align: center;
 
 .container2 {
   margin-left : 10px;
-  
+
 }
 
 .container2:after{
@@ -1064,6 +1029,7 @@ text-align: center;
   color       : #fff;
   opacity : 0;
   transition : opacity .8s;
+  justify-content: center;
 }
 
 .details h3 {
@@ -1243,6 +1209,55 @@ text-align: center;
 
 
 
+@media only screen and (max-width: 600px) {
+  #xtra{
+    display: grid;
+    -ms-flex-wrap: wrap;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    align-content: center;
+    justify-content: space-around;
+    place-items: center;
+  }
 
+}
+
+
+@media (min-width: 601px) and (max-width: 991px) {
+  #xtra{
+    display: grid;
+    -ms-flex-wrap: wrap;
+    grid-template-columns:  1fr 1fr;
+    grid-gap: 10px;
+    align-content: center;
+    justify-content: space-around;
+    place-items: center;
+  }
+}
+
+
+@media (min-width:991px) {
+  #xtra{
+    display: grid;
+    -ms-flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 10px;
+    align-content: center;
+    justify-content: space-around;
+    place-items: center;
+  }
+  }
+
+  @media (max-width:1800px) {
+    #xtra{
+      display: grid;
+      -ms-flex-wrap: wrap;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 10px;
+      align-content: center;
+      justify-content: space-around;
+      place-items: center;
+    }
+    }
 
 

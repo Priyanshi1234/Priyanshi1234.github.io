@@ -331,13 +331,6 @@ html {
   text-align: center;
   }
   
-  .fab:hover {
-    border: 3px solid #111d5e;
-    border-radius: 50%;
-    padding: 7px;
-    transition: all 0.3s ease-in-out;
-  }
-  
   /*======================================
   //--//-->   INTRO
   ======================================*/
@@ -479,6 +472,16 @@ html {
   /*======================================
   //--//-->   extra curr
   ======================================*/
+
+  #xtra{
+    display: grid;
+    -ms-flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    align-content: center;
+    justify-content: space-around;
+    place-items: center;
+  }
   
   .xtra-box {
     margin-bottom: 3rem;
@@ -1200,5 +1203,75 @@ html {
   opacity    : 1;
   transition : all .3s;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+  #xtra{
+    display: grid;
+    -ms-flex-wrap: wrap;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    align-content: center;
+    justify-content: space-around;
+    place-items: center;
+  }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  #xtra{
+    display: grid;
+    -ms-flex-wrap: wrap;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    align-content: center;
+    justify-content: space-around;
+    place-items: center;
+  }
+
+}
+
+
+@media (min-width: 601px) and (max-width: 991px) {
+  #xtra{
+    display: grid;
+    -ms-flex-wrap: wrap;
+    grid-template-columns:  1fr 1fr;
+    grid-gap: 10px;
+    align-content: center;
+    justify-content: space-around;
+    place-items: center;
+  }
+}
+
+
+@media (min-width:991px) {
+  #xtra{
+    display: grid;
+    -ms-flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 10px;
+    align-content: center;
+    justify-content: space-around;
+    place-items: center;
+  }
+  }
+
+  @media (max-width:1800px) {
+    #xtra{
+      display: grid;
+      -ms-flex-wrap: wrap;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 10px;
+      align-content: center;
+      justify-content: space-around;
+      place-items: center;
+    }
+    }
 
 
