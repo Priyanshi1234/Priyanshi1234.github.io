@@ -1178,6 +1178,10 @@ text-align: center;
   .aboutme-img:before, .aboutme-img:after{
     width:260px;
   }
+   
+  #xtra{
+    display: inline;
+  }
 }
 
 
@@ -1195,6 +1199,10 @@ text-align: center;
 
   .aboutme-img:before, .aboutme-img:after{
     width:310px;
+  }
+
+  #xtra{
+    display: inline;
   }
 }
 
