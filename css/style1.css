@@ -361,15 +361,14 @@ html {
   .intro .intro-title {
     color: white;
     font-weight: 600;
+    font-size: 5vw;
   }
+
   
   .intro .intro-subtitle {
     font-weight: 300;
     color: white;
-  }
-  
-  .intro .text-slider-items {
-    display: none;
+    font-size: 5vw;
   }
   
   .intro-single {
@@ -1206,72 +1205,36 @@ html {
 
 
 
-@media only screen and (max-width: 600px) {
-  #xtra{
-    display: grid;
-    -ms-flex-wrap: wrap;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-    align-content: center;
-    justify-content: space-around;
-    place-items: center;
+@media screen and (max-width: 600px) {
+  .bg-pink-transparent {
+    padding: 5px;
+    grid-template-rows: 0.5rem;
+  
   }
 
-}
-
-
-
-
-
-@media only screen and (max-width: 600px) {
-  #xtra{
-    display: grid;
-    -ms-flex-wrap: wrap;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-    align-content: center;
-    justify-content: space-around;
-    place-items: center;
+  .aboutme-img{
+    width:250px;
   }
 
-}
-
-
-@media (min-width: 601px) and (max-width: 991px) {
-  #xtra{
-    display: grid;
-    -ms-flex-wrap: wrap;
-    grid-template-columns:  1fr 1fr;
-    grid-gap: 10px;
-    align-content: center;
-    justify-content: space-around;
-    place-items: center;
+  .aboutme-img:before, .aboutme-img:after{
+    width:260px;
   }
 }
 
 
-@media (min-width:991px) {
-  #xtra{
-    display: grid;
-    -ms-flex-wrap: wrap;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-gap: 10px;
-    align-content: center;
-    justify-content: space-around;
-    place-items: center;
+
+@media screen and (min-width: 601px) and (max-width: 991px) {
+  .bg-pink-transparent {
+    padding: 10px;
+    grid-template-rows: 1rem;
+  
   }
+  
+  .aboutme-img{
+    width:300px;
   }
 
-  @media (max-width:1800px) {
-    #xtra{
-      display: grid;
-      -ms-flex-wrap: wrap;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-gap: 10px;
-      align-content: center;
-      justify-content: space-around;
-      place-items: center;
-    }
-    }
-
-
+  .aboutme-img:before, .aboutme-img:after{
+    width:310px;
+  }
+}
