@@ -339,7 +339,7 @@ html {
     height: 100vh;
     position: relative;
     color: #fff;
-    margin-top: 10px;
+    
   }
   
   .intro .intro-content {
@@ -368,7 +368,8 @@ html {
   .intro .intro-subtitle {
     font-weight: 300;
     color: white;
-    font-size: 5vw;
+    font-size: 3vw;
+    margin-top: 50px;
   }
   
   .intro-single {
@@ -1219,8 +1220,10 @@ html {
   .aboutme-img:before, .aboutme-img:after{
     width:260px;
   }
-
-  
+   
+  #xtra{
+    display: inline;
+  }
 }
 
 
@@ -1238,5 +1241,9 @@ html {
 
   .aboutme-img:before, .aboutme-img:after{
     width:310px;
+  }
+
+  #xtra{
+    display: inline;
   }
 }
